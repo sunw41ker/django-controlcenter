@@ -5,7 +5,7 @@ try:
 except ImportError:
     from django.core.urlresolvers import reverse
 from django.forms.widgets import MediaDefiningClass
-from django.utils import six
+from import six
 
 from . import app_settings
 from .base import BaseModel
