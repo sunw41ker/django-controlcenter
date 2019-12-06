@@ -1,4 +1,4 @@
-from django.utils import six
+import six
 
 from ..utils import deepmerge
 from .core import Widget, WidgetMeta
