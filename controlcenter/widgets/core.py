@@ -4,7 +4,7 @@ import os
 from abc import ABCMeta
 
 from django.core.exceptions import ImproperlyConfigured
-from django.utils import six
+import six
 from django.utils.functional import cached_property
 
 from ..base import BaseModel
